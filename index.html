@@ -9,6 +9,51 @@
   
   
   <title>Janjyoti_Service_Community</title>
+  <style>
+		.donate-box {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			background-color: #f5f5f5;
+			padding: 20px;
+			border: 2px solid #ccc;
+			border-radius: 5px;
+			box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+			max-width: 500px;
+			margin: 0 auto;
+		}
+
+		.qr-code {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			background-color: white;
+			padding: 20px;
+			border: 2px solid #ccc;
+			border-radius: 5px;
+			box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+			margin-top: 20px;
+			max-width: 300px;
+		}
+
+		.qr-code img {
+			max-width: 100%;
+			height: auto;
+		}
+
+		.donate-title {
+			font-size: 24px;
+			font-weight: bold;
+			margin: 20px 0;
+		}
+
+		.donate-description {
+			font-size: 16px;
+			text-align: center;
+			margin-bottom: 20px;
+		}
+	</style>
   
   <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
   
@@ -420,17 +465,14 @@
     </div> <!-- End page contact -->
   
      <!-- Donate Us-->
-    <div class="vg-page page-contact" id="Donate Us">
-      <h1 class="text-center fg-dark wow fadeInUp">Donate Us</h1>
-      
-         <div class="vg-footer" id="Donate Us">
-        <h1 class="text-center">Donate Us</h1>
-        <p>Your donation helps us continue our work. Thank you!</p>
-        <div class="qr-code-container">
-        <img src="assets/img/work/Donate.png" alt="Donate QR code">
-        </div>
-    </div>
-    </div> <!-- End Donate Us-->
+     <div class="donate-box">
+		<h1 class="donate-title">Donate Us</h1>
+		<p class="donate-description">Scan the QR code below to donate.</p>
+		<div class="qr-code">
+			<img src="assets/img/work/Donate.png" alt="QR code for donation">
+		</div>
+	  </div>
+    <!-- End Donate Us-->
 
 
 
